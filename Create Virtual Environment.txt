@@ -1,0 +1,11 @@
+Create Virtual Environment
+
+conda create -n mlops_env python=3.7 -y
+
+Select Interpretor >> change to mlops
+
+Install packages
+
+Remove requirements.txt contents
+- Add and save required libraries into requirements.txt // pandas numpy seaborn matplotlib scikit-learn dvc dvc[gdrive]
+- pip install -r requirements.txt
